@@ -1,0 +1,9 @@
+#Problem 7
+#Even Numbers in list
+#Take a list append even numbers to a new list
+new_a = []
+a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+for element in a :
+    if element%2 == 1 :
+        new_a.append(element)
+print(new_a)        
