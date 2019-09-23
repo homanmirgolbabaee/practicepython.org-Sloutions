@@ -1,0 +1,32 @@
+#Problem 8
+#Rock , Paper , Scisors
+#prompt user for input
+
+# 1 = Rock, 2= Paper , 3 = Scisors
+# 1 < 2 , 1>3 , 2<3 , 2>1 
+
+player = input("1-Rock , 2-Paper , 3-Scisors :")
+player = int(player)
+pc = random.randint(1,4)
+
+if player == 1 : #rock
+    if pc == 1 :
+        print("pc rolled rock ==> draw")
+    elif pc == 2 : 
+        print("pc rolled paper ==> pc wins")
+    else :
+        print("pc rolled scisors ==> player wins")
+if player == 2 : #paper
+    if pc == 1 :
+        print("pc rolled rock ==> player wins")
+    elif pc == 2 :
+        print("pc rolled paper ==> draw")    
+    else : 
+        print("pc rolled scisors ==> pc wins")    
+if player == 3 : #scisors        
+    if pc == 1 :
+        print("pc rolled rock ==> pc wins")
+    elif pc == 2:
+        print("pc rolled paper ==> player wins")
+    else :
+        print("pc rolled scisors ==> draw")
