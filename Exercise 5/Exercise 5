@@ -1,0 +1,11 @@
+#Problem 5
+#List Overlap
+#Takes two lists and compares it prints it out into another list with the same elements
+
+y1 = [1,21 , 98 , 71]
+y2 = [2 , 21 , 31, 71 , 98]
+y3 = []
+for elements in y2 :
+    if elements in y1 :
+      y3.append(elements)
+print(y3)      
