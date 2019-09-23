@@ -1,0 +1,21 @@
+r=[]
+def convert(s): 
+    # initialization of string to "" 
+    new = "" 
+    # traverse in the string  
+    for x in s: 
+        new += x  
+    # return string  
+    return new 
+word = input("user:")
+l_word = len(word)
+x = 1
+while x <= l_word :
+    r.append(word[l_word - x])
+    x += 1
+print(convert(r)) 
+
+if convert(r) == word :
+    print("IT IS palindrome")
+else: 
+    print("NOT palindrome")
