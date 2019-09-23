@@ -1,0 +1,12 @@
+#Problem 3
+#Lists
+#write a program that prints out all the elements of the list that are less than 5.
+#Instead of printing the elements one by one, make a new list that has all the elements
+#less than 5 from this list in it and print out this new list.
+y = [1 , 2 , 81 , 51 , 20 , 90 , 4]
+z = []
+for elements in y : 
+    if elements < 5 :
+        print(elements)
+        z.append(elements)
+print(z)
