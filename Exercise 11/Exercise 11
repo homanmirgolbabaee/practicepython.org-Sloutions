@@ -1,3 +1,7 @@
+#Problem 11
+#Prime number in a list
+#input for  a number and check if the number is prime or not
+
 num = input("num = ")
 num = int(num)
 x = 2
