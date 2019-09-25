@@ -1,0 +1,11 @@
+#Problem 12
+# Write a program that takes a list of numbers
+#(for example, a = [5, 10, 15, 20, 25]) and makes a new list of only the first and last elements of the given list.
+#For practice, write this code inside a function.
+
+def End_List(n_list) :
+    first_element = n_list[0]
+    last_element = n_list[len(n_list)-1]
+    return [first_element , last_element]
+e_list = [5 , 10 ,15 , 20 ,25 ]    
+print(End_List(e_list))
